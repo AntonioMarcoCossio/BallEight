@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Moonstone"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@color/design_default_color_primary_variant"
+        android:textColor="@color/design_default_color_on_primary" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/Ball"
+        android:src="@drawable/ball1"/>
+
+    <Button
+        android:id="@+id/RollButton"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/TextButton"
+        android:backgroundTint="@color/design_default_color_primary_variant"
+        android:Textcolor="@color/design_default_color_on_primary"/>
+
+</LinearLayout>

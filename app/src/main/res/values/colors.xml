@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Moonstone">#58A4B0</color>
+    <color name="AirForceBlue">#588EB0</color>
+    <color name="Tekhelet">#631A86</color>
+    <color name="PersianIndingo">#3C1A87</color>
+
+</resources>
